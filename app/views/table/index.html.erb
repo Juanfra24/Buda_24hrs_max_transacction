@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 mt-5">
+      <div class="mx-auto mt-5" style="width: 400px">
+        <%= form_with(url: '/generate', method: 'get', local: true) do %>
+          <%= button_tag 'Search', class: 'btn btn-success btn-block' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<h1>Tarea Platanus</h1>
+<h2>Tiempo de consulta</h2>
+<dd><%= @request_time %></dd>
+<dl>
+    <dt>Mercados consultados</dt>
+    <dd><%= @markets %></dd>
+</dl>
+<table border="2">
+  <tr>
+    <th>Mercado &nbsp; &nbsp; &nbsp;</th>
+    <th>Timestamp</th>
+    <th>valor</th>
+    <th>Conversion</th>
+    <th>tipo de transaccion</th>
+    <th>id (?)</th>
+    
+  </tr>
+
+   <% @markets.each_with_index  do |market,index| %>
+  <tr>
+    <td><%= market %></td>
+    <td><%= @max_transaction_data[index]["max_transaction"][0] %></td>
+    <td><%= @max_transaction_data[index]["max_transaction"][1] %></td>
+    <td><%= @max_transaction_data[index]["max_transaction"][2] %></td>
+    <td><%= @max_transaction_data[index]["max_transaction"][3] %></td>
+    <td><%= @max_transaction_data[index]["max_transaction"][4] %></td>
+  </tr>
+  <% end %>
+
+</table>
