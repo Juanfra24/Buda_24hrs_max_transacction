@@ -14,7 +14,7 @@ Rails 5.2.4.3
 Ahora dirigirse a [http://localhost:3000/](http://localhost:3000/)
 
 ## Run
-Una vez en la pagina de inicio, darle al boton Generar tabla (puede demorar 1 o 2 minutos)  
+Una vez en la pagina de inicio, darle al boton Generar tabla (puede demorar 1 minuto)  
 El resultado deberia ser parecido a lo siguiente:  
 <a href="https://ibb.co/097ncr5"><img src="https://i.ibb.co/HPSKVqZ/output-platanus.png" alt="output-platanus" border="0"></a>
 
